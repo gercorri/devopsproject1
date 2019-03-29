@@ -3,7 +3,7 @@
 - name: run the playbook tasks on the localhost
   hosts: all
   become: yes
-  become_user: centos
+  become_user: jenkins
   tasks:
 
   - name: print out the hostname of target
